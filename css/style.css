@@ -4,6 +4,24 @@ body {
   margin: 3em;
 }
 
+#mainNav {
+  margin:1em auto 3em;
+  text-align:center;
+  font-size:20px;
+  border: 1px solid black;
+  width: 10em;
+  padding: 0.5em;
+  background-color:rgb(5, 255, 151);
+}
+
+a:hover {
+  font-weight:bold;
+}
+
+.name {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 .text-center {
   text-align: center;
   display:block;
@@ -22,11 +40,37 @@ body {
 
 h1 {
   text-align: center;
-  line-height:1.4em;
+  line-height:0.6em;
+}
+h3 {
+  text-align: center;
+  margin:0;
 }
 
 section {
   margin-bottom: 3em;
+}
+
+.firstParagraph {
+  background-color: #2cf;
+  padding: 0.7em;
+}
+
+.secondParagraph {
+  background-color: #39f;
+  padding: 0.7em;
+}
+
+ul {
+  list-style-type: square;
+}
+
+ol {
+  list-style-type: lower-alpha;
+}
+
+li {
+  padding: 8px;
 }
 
 .pictures {

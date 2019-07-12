@@ -1,0 +1,12 @@
+body {
+  background-color:rgb(44, 57, 85);
+  color: rgb(205, 221, 255);
+}
+
+#mainNav {
+  background-color:rgb(170, 0, 113);
+}
+
+a:visited {
+  color: rgb(119, 239, 255);
+}
